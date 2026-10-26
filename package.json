@@ -1,0 +1,25 @@
+{
+  "name": "guia-hoteles",
+  "version": "1.0.0",
+  "description": "Proyecto Módulo 1 - Sitio web responsivo con Bootstrap 4, NPM y Flexbox",
+  "main": "index.html",
+  "scripts": {
+    "dev": "lite-server",
+    "start": "npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/usuario/guia-hoteles.git"
+  },
+  "author": "Estudiante",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.2",
+    "jquery": "^3.6.4",
+    "popper.js": "^1.16.1"
+  }
+}

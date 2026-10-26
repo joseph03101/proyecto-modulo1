@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Referencias CSS a Bootstrap desde node_modules y hoja de estilos propia -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Guía de Hoteles - Módulo 1</title>
+  </head>
+  <body>
+
+    <!-- Elemento Jumbotron en el cuerpo con el título del proyecto -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-4">Guía de Hoteles y Paquetes Turísticos</h1>
+        <p class="lead">Encuentra los mejores destinos, hoteles y experiencias con reserva inmediata al mejor precio garantizado.</p>
+      </div>
+    </div>
+
+    <!-- Contenedor principal -->
+    <div class="container">
+
+      <!-- 3 párrafos utilizando elementos <p> y un título con descripción contando las principales características del producto -->
+      <div class="row">
+        <div class="col-sm-4 caracteristica-item">
+          <h2>¿Cómo funciona?</h2>
+          <p>Buscá los hoteles y paquetes de acuerdo a tu preferencia de destino, categoría y servicios incluidos. Compará opciones verificadas en tiempo real.</p>
+        </div>
+        <div class="col-sm-4 caracteristica-item">
+          <h2>¿Dónde puedo reservar?</h2>
+          <p>Elegí la ciudad o región que más te interese y luego realizá la reserva con tus datos de manera 100% online con confirmación inmediata.</p>
+        </div>
+        <div class="col-sm-4 caracteristica-item">
+          <h2>¿Cómo pago?</h2>
+          <p>Utilizá tu tarjeta favorita, transferencia o financiación en cuotas sin interés. Contamos con pasarelas de pago seguras y atención personalizada.</p>
+        </div>
+      </div>
+
+      <hr>
+
+      <!-- Lista de productos separada de los párrafos anteriores:
+           Incluye título, descripción y botón, combinando el sistema de grillas responsivo
+           y transformado a Flex (d-flex, flex-wrap, flex-column, justify-content-between) -->
+      <div class="row d-flex flex-wrap">
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
+          <div class="card-hotel d-flex flex-column justify-content-between">
+            <div>
+              <h3>Hotel Barcelona</h3>
+              <p>Hotel ubicado en pleno centro de Barcelona a pocos metros de la playa, con desayuno buffet y terraza panorámica.</p>
+            </div>
+            <div>
+              <button type="button" class="btn btn-primary btn-reserva">Reservar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
+          <div class="card-hotel d-flex flex-column justify-content-between">
+            <div>
+              <h3>Hotel Buenos Aires</h3>
+              <p>Hotel ubicado en pleno centro porteño, cercano al Obelisco y teatros principales, ideal para viajes de negocios y turismo.</p>
+            </div>
+            <div>
+              <button type="button" class="btn btn-primary btn-reserva">Reservar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
+          <div class="card-hotel d-flex flex-column justify-content-between">
+            <div>
+              <h3>Hotel Lima</h3>
+              <p>Hotel ubicado en el distrito de Miraflores con vista al océano Pacífico y restaurante de gastronomía peruana de autor.</p>
+            </div>
+            <div>
+              <button type="button" class="btn btn-primary btn-reserva">Reservar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
+          <div class="card-hotel d-flex flex-column justify-content-between">
+            <div>
+              <h3>Hotel Río de Janeiro</h3>
+              <p>Hotel ubicado en pleno centro de Río de Janeiro a pocos metros de la playa de Copacabana con piscina climatizada.</p>
+            </div>
+            <div>
+              <button type="button" class="btn btn-primary btn-reserva">Reservar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
+          <div class="card-hotel d-flex flex-column justify-content-between">
+            <div>
+              <h3>Hotel San Pablo</h3>
+              <p>Moderno hotel ejecutivo sobre la Avenida Paulista con centro de convenciones, gimnasio completo y Wi-Fi de alta velocidad.</p>
+            </div>
+            <div>
+              <button type="button" class="btn btn-primary btn-reserva">Reservar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
+          <div class="card-hotel d-flex flex-column justify-content-between">
+            <div>
+              <h3>Hotel Madrid</h3>
+              <p>Alojamiento boutique junto a la Gran Vía y el Parque del Retiro, con habitaciones insonorizadas y servicio a la habitación 24 h.</p>
+            </div>
+            <div>
+              <button type="button" class="btn btn-primary btn-reserva">Reservar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
+          <div class="card-hotel d-flex flex-column justify-content-between">
+            <div>
+              <h3>Hotel Bariloche</h3>
+              <p>Resort de montaña frente al lago Nahuel Huapi con spa termal, traslados al Cerro Catedral y excursiones guiadas.</p>
+            </div>
+            <div>
+              <button type="button" class="btn btn-primary btn-reserva">Reservar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
+          <div class="card-hotel d-flex flex-column justify-content-between">
+            <div>
+              <h3>Hotel Cancún</h3>
+              <p>Complejo All-Inclusive frente al mar Caribe con playa privada, actividades acuáticas y 4 restaurantes temáticos.</p>
+            </div>
+            <div>
+              <button type="button" class="btn btn-primary btn-reserva">Reservar</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Sección de pie de página (Footer) con clases de control de alineación:
+         izquierda (align-items-start / text-left),
+         centro (align-items-center / text-center) con <address>,
+         y derecha (align-items-end / text-right) -->
+    <footer>
+      <div class="container">
+        <div class="row">
+
+          <!-- Izquierda: Redes sociales -->
+          <div class="col-sm-4 d-flex flex-column align-items-start text-left">
+            <h5>Redes Sociales</h5>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">Twitter / X</a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">YouTube</a>
+          </div>
+
+          <!-- Centro: Dirección comercial utilizando el componente <address> -->
+          <div class="col-sm-4 d-flex flex-column align-items-center text-center">
+            <address>
+              <h5>Oficina Central</h5>
+              <p class="mb-1">Tucumán 834, CABA, Argentina</p>
+              <p class="mb-1">+54 9 11 1234-5678</p>
+              <p class="mb-0"><a href="mailto:contacto@guiahoteles.com">contacto@guiahoteles.com</a></p>
+            </address>
+          </div>
+
+          <!-- Derecha: Información adicional del comercio y detalles del sitio -->
+          <div class="col-sm-4 d-flex flex-column align-items-end text-right">
+            <h5>Sobre el Sitio</h5>
+            <a href="#">Nosotros</a>
+            <a href="#">Precios y Financiación</a>
+            <a href="#">Términos y Condiciones</a>
+            <a href="#">Contacto y Soporte</a>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+    <!-- Referencias JS a jQuery, Popper.js y Bootstrap desde la carpeta node_modules -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

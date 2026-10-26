@@ -1,0 +1,91 @@
+/* ==========================================================================
+   Estilos principales del proyecto - Módulo 1 (Bootstrap 4 & Flexbox)
+   ========================================================================== */
+
+/* Jumbotron principal */
+.jumbotron {
+  background-color: #f8d210;
+  color: #1e293b;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 3rem 2rem;
+  border-radius: 0.5rem;
+}
+
+.jumbotron h1 {
+  font-weight: 700;
+}
+
+/* Sección de características (3 párrafos principales) */
+.caracteristica-item {
+  margin-bottom: 1.5rem;
+}
+
+.caracteristica-item h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: 0.75rem;
+}
+
+/* Estilos replicables para todos los productos del listado principal.
+   Al modificar esta clase (.card-hotel / .card-producto) cambia el diseño
+   de todos los productos de forma simultánea. */
+.card-hotel {
+  flex: 1 220px;
+  padding: 16px;
+  margin: 10px;
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-hotel:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+}
+
+.card-hotel h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1e3a8a;
+  margin-bottom: 0.5rem;
+}
+
+.card-hotel p {
+  color: #475569;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Botón replicable para todos los productos */
+.btn-reserva {
+  width: 100%;
+  margin-top: 12px;
+  font-weight: 600;
+}
+
+/* Pie de página (Footer) */
+footer {
+  padding: 25px 15px 15px 15px;
+  background-color: #f8d210;
+  color: #1e293b;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #1e3a8a;
+  text-decoration: none;
+  margin-bottom: 4px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #0f172a;
+}
+
+.footer-address-icon {
+  padding-right: 8px;
+}
